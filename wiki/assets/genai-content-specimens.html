@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gen-AI Content-Layer Specimen Sheet — Reading-Behaviors Wiki</title>
+<style>
+:root{
+  --bg:#faf9f5; --card:#ffffff; --ink:#1f1e1b; --mut:#6b6a63; --hint:#93928a; --border:#e6e3da;
+  --ok-bg:#eaf3de; --ok-tx:#3b6d11; --warn-bg:#faeeda; --warn-tx:#854f0b;
+  --acc-bg:#e6f1fb; --acc-tx:#0c447c; --nul-bg:#f1efe8; --nul-tx:#5f5e5a;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#22201c;--card:#2c2a26;--ink:#ece9e2;--mut:#a8a69d;--hint:#807e76;--border:#3c3a34;
+    --ok-bg:#27500a;--ok-tx:#c0dd97;--warn-bg:#633806;--warn-tx:#fac775;
+    --acc-bg:#0c447c;--acc-tx:#b5d4f4;--nul-bg:#444441;--nul-tx:#d3d1c7;}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;padding:32px 20px}
+.wrap{max-width:960px;margin:0 auto}
+h1{font-size:22px;font-weight:600;margin:0 0 4px}
+.sub{color:var(--mut);font-size:14px;margin:0 0 4px}
+.leg{color:var(--hint);font-size:12px;margin:8px 0 24px}
+.leg b{font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}
+.spec{background:var(--card);border:0.5px solid var(--border);border-radius:12px;padding:14px 16px}
+.sh{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px}
+.sn{font-size:14px;font-weight:600}
+.pill{font-size:11px;padding:2px 8px;border-radius:8px;white-space:nowrap;font-weight:600}
+.ok{background:var(--ok-bg);color:var(--ok-tx)}
+.warn{background:var(--warn-bg);color:var(--warn-tx)}
+.acc{background:var(--acc-bg);color:var(--acc-tx)}
+.mut{background:var(--nul-bg);color:var(--nul-tx)}
+.ex{border-top:0.5px solid var(--border);padding-top:7px;margin-top:8px}
+.ex:first-of-type{border-top:0;padding-top:0;margin-top:0}
+.tag{display:block;font-size:11px;color:var(--hint);margin-bottom:2px}
+.s{margin:0;color:var(--ink)}
+.cite{display:block;font-size:10.5px;color:var(--hint);margin-top:6px}
+.foot{margin-top:26px;color:var(--mut);font-size:13px;border-top:0.5px solid var(--border);padding-top:14px}
+.foot code{background:var(--nul-bg);padding:1px 5px;border-radius:4px;font-size:12px}
+.note{background:var(--nul-bg);border-radius:8px;padding:10px 14px;font-size:12.5px;color:var(--mut);margin-bottom:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Gen-AI content-layer specimen sheet</h1>
+<p class="sub">The corpus's third layer — content operations an LLM performs on text, distinct from both text-style (glyph) and layout (spatial/structural). Same demonstration format as the other two sheets: a real passage rewritten, tagged with the wiki's verdict.</p>
+<p class="leg">Tags: <b style="color:var(--ok-tx)">green</b> = helps/neutral · <b style="color:var(--warn-tx)">amber</b> = can hurt / contested · <b style="color:var(--acc-tx)">blue</b> = emerging / metric-validated only · <b style="color:var(--nul-tx)">gray</b> = untested for reading performance. Companion to <code>text-style-specimens.html</code> + <code>layout-pattern-specimens.html</code>; see <code>[[concepts/text-style-vs-layout]]</code> "content → layout → text style" stack and <code>[[syntheses/gen-ai-and-reading]]</code>.</p>
+<p class="note">Base passage used across panels 1–3: <em>"The mitochondrion is a membrane-bound organelle that generates most of the cell's supply of adenosine triphosphate, used as a source of chemical energy."</em></p>
+
+<div class="grid">
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Simplification (rewrite, content preserved)</span><span class="pill ok">helps/neutral readability</span></div>
+    <div class="ex"><span class="tag">original</span><p class="s" style="font-size:14px">The mitochondrion is a membrane-bound organelle that generates most of the cell's supply of adenosine triphosphate, used as a source of chemical energy.</p></div>
+    <div class="ex"><span class="tag">LLM-simplified (vocabulary + grammar; content kept)</span><p class="s" style="font-size:14px">Mitochondria are tiny parts inside cells. They make most of the energy a cell needs, in the form of a molecule called ATP.</p></div>
+    <span class="cite">Improves Flesch-Kincaid readability without hindering learning, N=37 [[sources/pascoal-2026-llm-readability-student-comprehension]]. Naïve prompts can still worsen text if unguided [[sources/hedlin-2025-prompting-readability-chatgpt]].</span>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Summarization / compression (content removed)</span><span class="pill warn">can hurt durable comprehension</span></div>
+    <div class="ex"><span class="tag">original</span><p class="s" style="font-size:14px">The mitochondrion is a membrane-bound organelle that generates most of the cell's supply of adenosine triphosphate, used as a source of chemical energy.</p></div>
+    <div class="ex"><span class="tag">LLM summary (detail deleted, not reworded)</span><p class="s" style="font-size:14px">Mitochondria make energy for cells.</p></div>
+    <span class="cite">Rates as good as human summaries yet comprehends <em>worse</em>; auto-metrics fail to track this [[sources/guo-2025-llm-plain-language-summaries]]. Hurts strong readers disproportionately [[sources/rolle-2025-gpt-tools-comprehension]]; underperforms note-taking for retention [[sources/kreijkes-2026-llm-notetaking-comprehension]].</span>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Personalization / level adaptation</span><span class="pill acc">NLP-metric validated only</span></div>
+    <div class="ex"><span class="tag">beginner-level target</span><p class="s" style="font-size:14px">A mitochondrion is a tiny part inside a cell. It makes energy the cell can use.</p></div>
+    <div class="ex"><span class="tag">advanced-level target</span><p class="s" style="font-size:14px">Mitochondria are membrane-bound organelles that synthesize the bulk of a cell's ATP via oxidative phosphorylation.</p></div>
+    <span class="cite">Validated by NLP adaptation metrics, not reader comprehension outcomes — an open question [[sources/mcnamara-2025-genai-text-personalization]].</span>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Prompt strategy for simplification</span><span class="pill warn">naïve prompt can worsen text</span></div>
+    <div class="ex"><span class="tag">naïve prompt ("make this easier")</span><p class="s" style="font-size:14px">Mitochondria are membrane-bound organelles generating cellular ATP — essentially the cell's power generators, biochemically speaking.</p></div>
+    <div class="ex"><span class="tag">metric-guided prompt (target grade level)</span><p class="s" style="font-size:14px">Mitochondria are small parts inside cells. They make energy the cell needs to work.</p></div>
+    <span class="cite">Metric-Guided Prompt significantly reduces Flesch-Kincaid grade level vs a standard/naïve prompt, which can leave text unchanged or harder [[sources/hedlin-2025-prompting-readability-chatgpt]].</span>
+  </div>
+
+</div>
+
+<p class="note" style="margin-top:14px">Layout-generation panel (LLM-generated layout from text vs. a fixed template) lives on <code>layout-pattern-specimens.html</code> — content and layout are separate axes even when both are LLM-driven.</p>
+
+<p class="foot">Rewrites above are illustrative, built from the source papers' reported method + effect direction, not verbatim study stimuli. See <code>syntheses/gen-ai-and-reading.md</code> for full citations and the simplification-vs-summarization distinction; <code>concepts/text-style-vs-layout.md</code> for how this layer relates to the other two.</p>
+</div>
+</body>
+</html>

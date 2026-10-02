@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "42af907fc09906d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c322e7e3536cb69b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b129d8c6e39782f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "syntheses/research-attention-over-time.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "research-attention-over-time"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "401d1d2c2a33e061",
+    "type": "split",
+    "children": [
+      {
+        "id": "94dde647a207aab2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91ee58caa8375007",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "64b07fe6f37ff01e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0baf6d777173c084",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c85dc64d2ac2d894",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6f077b40b366878",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7339c8047d38aeaf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "syntheses/skimming-vs-scanning-vs-search.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for skimming-vs-scanning-vs-search"
+            }
+          },
+          {
+            "id": "75d984f8772a1645",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "syntheses/skimming-vs-scanning-vs-search.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from skimming-vs-scanning-vs-search"
+            }
+          },
+          {
+            "id": "499fdad532614f11",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e0f41d4ebd43f7f1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1ccd1aa62a0f2588",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "syntheses/skimming-vs-scanning-vs-search.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of skimming-vs-scanning-vs-search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "91ee58caa8375007",
+  "lastOpenFiles": [
+    "assets/genai-content-specimens.html",
+    "syntheses/Skimming.md",
+    "syntheses/skimming-vs-scanning-vs-search.md",
+    "index.md",
+    "syntheses/when-measures-disagree.md",
+    "syntheses/research-attention-over-time.md",
+    "syntheses/reading-goals-purpose-depth-map.md",
+    "syntheses/reading-goal-x-text-style-matrix.md",
+    "syntheses/reading-goal-x-controlling-latent-factors.md",
+    "syntheses/Proofreading.md",
+    "syntheses/gen-ai-and-reading.md",
+    "syntheses/evidence-based-default-screen-layout.md",
+    "syntheses/does-style-improve-comprehension.md",
+    "syntheses/Comprehension.md",
+    "concepts/word-spacing-segmentation.md",
+    "concepts/whitespace-margins.md",
+    "concepts/web-layout.md",
+    "concepts/visual-search.md",
+    "concepts/time-pressure.md",
+    "concepts/textbase.md",
+    "concepts/text-style-vs-layout.md",
+    "concepts/text-structure.md",
+    "concepts/text-graphic-integration.md",
+    "concepts/text-direction.md",
+    "concepts/task-effects-eye-movements.md",
+    "concepts/split-attention-cognitive-load.md"
+  ]
+}

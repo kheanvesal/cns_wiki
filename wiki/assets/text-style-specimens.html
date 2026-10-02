@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Text-Style Specimen Sheet — Reading-Behaviors Wiki</title>
+<style>
+:root{
+  --bg:#faf9f5; --card:#ffffff; --ink:#1f1e1b; --mut:#6b6a63; --hint:#93928a; --border:#e6e3da;
+  --ok-bg:#eaf3de; --ok-tx:#3b6d11; --warn-bg:#faeeda; --warn-tx:#854f0b;
+  --acc-bg:#e6f1fb; --acc-tx:#0c447c; --nul-bg:#f1efe8; --nul-tx:#5f5e5a;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#22201c;--card:#2c2a26;--ink:#ece9e2;--mut:#a8a69d;--hint:#807e76;--border:#3c3a34;
+    --ok-bg:#27500a;--ok-tx:#c0dd97;--warn-bg:#633806;--warn-tx:#fac775;
+    --acc-bg:#0c447c;--acc-tx:#b5d4f4;--nul-bg:#444441;--nul-tx:#d3d1c7;}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.6;padding:32px 20px}
+.wrap{max-width:960px;margin:0 auto}
+h1{font-size:22px;font-weight:600;margin:0 0 4px}
+.sub{color:var(--mut);font-size:14px;margin:0 0 4px}
+.leg{color:var(--hint);font-size:12px;margin:8px 0 24px}
+.leg b{font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.spec{background:var(--card);border:0.5px solid var(--border);border-radius:12px;padding:14px 16px}
+.sh{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px}
+.sn{font-size:14px;font-weight:600}
+.pill{font-size:11px;padding:2px 8px;border-radius:8px;white-space:nowrap;font-weight:600}
+.ok{background:var(--ok-bg);color:var(--ok-tx)}
+.warn{background:var(--warn-bg);color:var(--warn-tx)}
+.acc{background:var(--acc-bg);color:var(--acc-tx)}
+.mut{background:var(--nul-bg);color:var(--nul-tx)}
+.ex{border-top:0.5px solid var(--border);padding-top:7px;margin-top:8px}
+.ex:first-of-type{border-top:0;padding-top:0;margin-top:0}
+.tag{display:block;font-size:11px;color:var(--hint);margin-bottom:2px}
+.s{margin:0;color:var(--ink)}
+.foot{margin-top:26px;color:var(--mut);font-size:13px;border-top:0.5px solid var(--border);padding-top:14px}
+.foot code{background:var(--nul-bg);padding:1px 5px;border-radius:4px;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Text-style specimen sheet</h1>
+<p class="sub">Each visually-demonstrable text-style variable as a before/after sample, tagged with its effect on reading goals.</p>
+<p class="leg">Tags: <b style="color:var(--ok-tx)">green</b> = helps a goal · <b style="color:var(--nul-tx)">gray</b> = neutral/null · <b style="color:var(--warn-tx)">amber</b> = contested/hurts · <b style="color:var(--acc-tx)">blue</b> = task-specific. Companion to <code>wiki/syntheses/reading-goal-x-text-style-matrix.md</code>.</p>
+
+<div class="grid">
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Font size</span><span class="pill mut">↑ speed · = comprehension</span></div>
+    <div class="ex"><span class="tag">smaller</span><p class="s" style="font-size:13px">Style shapes how we read.</p></div>
+    <div class="ex"><span class="tag">larger</span><p class="s" style="font-size:21px">Style shapes how we read.</p></div>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Typeface: serif vs sans</span><span class="pill mut">= comprehension (weak)</span></div>
+    <div class="ex"><span class="tag">serif</span><p class="s" style="font-family:Georgia,'Times New Roman',serif;font-size:16px">Style shapes how we read.</p></div>
+    <div class="ex"><span class="tag">sans</span><p class="s" style="font-size:16px">Style shapes how we read.</p></div>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Disfluent font</span><span class="pill warn">~ no memory gain</span></div>
+    <div class="ex"><span class="tag">fluent</span><p class="s" style="font-size:16px">Style shapes how we read.</p></div>
+    <div class="ex"><span class="tag">disfluent</span><p class="s" style="font-size:15px;font-style:italic;font-weight:300;letter-spacing:0.6px;color:var(--mut);transform:scaleX(0.9);transform-origin:left">Style shapes how we read.</p></div>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Line spacing (leading)</span><span class="pill ok">proofreading ↑</span></div>
+    <div class="ex"><span class="tag">tight</span><p class="s" style="font-size:13px;line-height:1.1">Readers forage for meaning, guided by how the text is set on the line.</p></div>
+    <div class="ex"><span class="tag">open</span><p class="s" style="font-size:13px;line-height:1.9">Readers forage for meaning, guided by how the text is set on the line.</p></div>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Letter spacing</span><span class="pill mut">comfort only</span></div>
+    <div class="ex"><span class="tag">normal</span><p class="s" style="font-size:16px">Style shapes how we read.</p></div>
+    <div class="ex"><span class="tag">wide tracking</span><p class="s" style="font-size:16px;letter-spacing:3px">Style shapes how we read.</p></div>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Line length / cpl</span><span class="pill acc">~55 cpl optimal</span></div>
+    <div class="ex"><span class="tag">too narrow (~26 cpl)</span><p class="s" style="font-size:13px;width:130px;line-height:1.4">Readers forage for meaning, guided by how the text is set.</p></div>
+    <div class="ex"><span class="tag">balanced (~55 cpl)</span><p class="s" style="font-size:13px;line-height:1.4">Readers forage for meaning, guided by how the text is set on the line.</p></div>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Letter case</span><span class="pill warn">ALL-CAPS ↓ slower</span></div>
+    <div class="ex"><span class="tag">sentence case</span><p class="s" style="font-size:16px">Style shapes how we read.</p></div>
+    <div class="ex"><span class="tag">all caps</span><p class="s" style="font-size:16px;text-transform:uppercase">Style shapes how we read.</p></div>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Emphasis (bold / italic)</span><span class="pill acc">salience / signaling</span></div>
+    <div class="ex"><span class="tag">plain</span><p class="s" style="font-size:15px">Skimming readers hunt for the main point in the text.</p></div>
+    <div class="ex"><span class="tag">emphasized</span><p class="s" style="font-size:15px">Skimming readers hunt for the <b style="font-weight:600">main point</b> in the text.</p></div>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Density / whitespace</span><span class="pill acc">search ↑ · sparse preferred</span></div>
+    <div class="ex"><span class="tag">dense</span><p class="s" style="font-size:12px;line-height:1.15;text-align:justify">Readers forage for meaning, guided by how the text is set. Dense blocks locate targets faster, yet readers say they prefer more air.</p></div>
+    <div class="ex"><span class="tag">airy</span><p class="s" style="font-size:12px;line-height:1.9">Readers forage for meaning, guided by how the text is set.</p></div>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Headings / signaling</span><span class="pill ok">comprehension + skim ↑</span></div>
+    <div class="ex"><span class="tag">unstructured</span><p class="s" style="font-size:12px;line-height:1.4">How text is set. Readers forage for meaning. Layout can help or hinder that search across a page.</p></div>
+    <div class="ex"><span class="tag">signposted</span><p class="s" style="font-size:12px;line-height:1.4"><b style="font-weight:600;color:var(--mut)">How text is set</b><br>Readers forage for meaning. Layout can help or hinder that search.</p></div>
+  </div>
+
+  <div class="spec">
+    <div class="sh"><span class="sn">Segmentation / indentation</span><span class="pill ok">comprehension ↑</span></div>
+    <div class="ex"><span class="tag">run-on</span><p class="s" style="font-size:12px;line-height:1.45">Readers forage for meaning and layout can help or hinder that search and pacing matters too.</p></div>
+    <div class="ex"><span class="tag">segmented</span><p class="s" style="font-size:12px;line-height:1.45">Readers forage for meaning.<br><span style="padding-left:14px;display:inline-block">Layout can help or hinder that search.</span></p></div>
+  </div>
+
+</div>
+
+<p class="foot">Not shown (temporal or interactive, need animation): <b>medium</b> (screen vs paper), <b>temporal presentation / pacing</b> (RSVP), <b>scrolling vs pagination</b>, and <b>navigation structure</b>. Verdicts summarize the wiki's source-page evidence; see <code>reading-goal-x-text-style-matrix.md</code> and <code>reading-goal-x-controlling-latent-factors.md</code>.</p>
+</div>
+</body>
+</html>
