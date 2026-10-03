@@ -10,6 +10,6 @@ source_count: 2
 
 # Whitespace / Margins
 
-**What.** Empty space (margins, inter-paragraph, page留白) that demarcates structure and affects performance, comfort, and aesthetics.
+**What.** Empty space (margins, inter-paragraph, page 留白) that demarcates structure and affects performance, comfort, and aesthetics.
 **Sources.** [[sources/2534-handheld-whitespace-reading]] · [[sources/functional-headings-selective-attention]].
-**See also.** [[concepts/information-density]] · [[concepts/aesthetics]] · [[concepts/headings-signaling]].
+**See also.** [[concepts/information-density]] · [[concepts/aesthetics]] · [[concepts/headings-signaling]] · [[concepts/layout-and-line-breaks]] · [[concepts/paragraph-length]] · [[concepts/columns]].

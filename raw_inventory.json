@@ -1,0 +1,676 @@
+{
+ "records": [
+  {
+   "path": "raw/Add more paper/Comprehension/1-s2.0-S2666557325000023-main.pdf",
+   "sha": "a1a855978d495118301346825a5b4c64f89266e72f1c088cfb8da264602ff1c0",
+   "size": 2232628,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Comprehension/41155_2022_Article_212.pdf",
+   "sha": "3b96b73af0878bfc347d6f35a5a3e3966d9bd918d158b068ecf831a3a8cec6fc",
+   "size": 1397877,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Comprehension/halamish2020.pdf",
+   "sha": "5d9dfcce97b5b42e6de0706990e1a5f4e37ce8c2b9f3d890664951d0ca157f17",
+   "size": 612489,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Comprehension/Lege-TypographysEffect.pdf",
+   "sha": "f37a4f7996f6ba2a0c2911d2052b29ab0ec6d91af0d60fa6d203ea08f611b6d5",
+   "size": 611508,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Comprehension/MI_MAngen-et-al-2012-Reading-linear-texts-on-paper-versus-computer-screen-effects-on-reading.pdf",
+   "sha": "d4718e030531d40a5d1fd4adf13887e73ba8385b54d2c34ec534295fae5d3504",
+   "size": 237597,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Comprehension/PaperVersusScreen_ImpactonReading.pdf",
+   "sha": "349116292b5db9684ee33d6736548e631f74f5a96be12995ea8c53b5713aa844",
+   "size": 337568,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Comprehension/s40692-014-0012-z.pdf",
+   "sha": "83c6c10996798adfe03d1e731632e02eb2e48985e218b7e3b78204006342ad79",
+   "size": 199689,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Comprehension/soleimani2012.pdf",
+   "sha": "37612007815c9e190b0037f293248a960cef554b0daf0c1abd3ae07d5c82463a",
+   "size": 180153,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/2107.09615v1.pdf",
+   "sha": "3fd7feb7a73d245bde8f8921733968a9f7e69bc5467809f72d539f79312d898f",
+   "size": 2421665,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/2602.22735v1.pdf",
+   "sha": "39bae1f1aba1d01b3b04231afae3db1407e097d9322290bcb83f1420c9eea117",
+   "size": 1401712,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/2604.16744v2 - Copy.pdf",
+   "sha": "6ba57e78426a3de5f281d0b8382337588717d5a3f30292c2c8ca102d6970dca9",
+   "size": 820434,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/2604.16744v2.pdf",
+   "sha": "6ba57e78426a3de5f281d0b8382337588717d5a3f30292c2c8ca102d6970dca9",
+   "size": 820434,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/2897736.pdf",
+   "sha": "8605334cb10093ae57b3b8d4cce60a5e5f2ba17b6c11ea72d11bb8eca259bb21",
+   "size": 980893,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/3772318.3791020.pdf",
+   "sha": "273d658620b5c80b59e39ef4a1f963d7b4a15e703ecae65ea25d1e7aab315310",
+   "size": 8642706,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/41598_2024_Article_64964.pdf",
+   "sha": "6065b8b3c983e5c9896c5448b3d816f12079cc117ef6467d87374c252bb6fbe3",
+   "size": 6453719,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/Accelerating_Adult_Readers_with_Typeface_A_Study_of_Individual_Preferences_and_Effectiveness.pdf",
+   "sha": "8271099ddaea923e6c1ee2284f7c4bc6282a53e9db83fd27dd5ce8dc41451699",
+   "size": 400061,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/assets2013.pdf",
+   "sha": "f8f0c8c261a36c80c05d5b7a8499a1d2a7faa5ee8b0150c326282091d861b55e",
+   "size": 669234,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/janouskova2022.pdf",
+   "sha": "2d31f2fe1e8f91b25dde6b41817d77cc4b47f3ae766cb3611d6f37c6f2bc45c8",
+   "size": 624475,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/jemr-13-03-e.pdf",
+   "sha": "4a1593425e8b90e700cf2ab68b8645b69651d03674e9e5e495cdb02c7248c57e",
+   "size": 1673888,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/jemr-18-00056.pdf",
+   "sha": "d0fb35f833a3b8b91a36cd13599c635efcb22d55dc97915910c784c70325071e",
+   "size": 7421405,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/kong2018.pdf",
+   "sha": "59bba8c5946dab389e9d00d28d8d3835aaa1a2c43a8e8b4671f86258f1a86221",
+   "size": 1039935,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/li2009.pdf",
+   "sha": "78924bdb611fd5da246335735910e7f16be5af2cceae2cae8d509ea7125de4fb",
+   "size": 258201,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/mti-08-00005.pdf",
+   "sha": "41bf7ca67dee2336ea439b0282b673d2cd6de90f8b581a6b8bda18aa1c94c6b2",
+   "size": 3329684,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/s41598-019-49051-x.pdf",
+   "sha": "07943a3b4e2ac6f2048b9febbc3536a6f3c68d740aed5415161b714532216beb",
+   "size": 1662993,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/sensors-24-05966.pdf",
+   "sha": "e4ce20b40b57a2ad0e6bb3e8095947921df25d3cc66b3b52482ea6d89e2d426e",
+   "size": 10548661,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/tarasov2015.pdf",
+   "sha": "adefc956a98731db2900c1d79df3679477cb53d685a0e9b2ba2cf6347e0857cf",
+   "size": 329008,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/Understanding-the-Assessment-Methods-for-Readability-and-Legibility-in-Typography-A-Systematic-Review-Nisha-Arya-140.pdf",
+   "sha": "5e043177ab8d2ad63523979d31af853fda0eeaa4be484ad25515c341a37377f0",
+   "size": 221743,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/View of Beyond (Type)Face Value_ A Systematic Literature Review Examining Design Factors Influencing the Legibility and Readability of Typography.pdf",
+   "sha": "f7ad1d54f21fbdc69a6b1d25ac4da64ffb1e02d286fa25437d6a776d1868f352",
+   "size": 12767147,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/View of Optimal Line Length in Reading \u2014 A Literature Review.pdf",
+   "sha": "14a4cd8d9839ad5ff9e728d9ffdfb3742c494bd9f0ec932927b1af29cdd5847e",
+   "size": 10989012,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/General/vision-04-00018-v2 (1).pdf",
+   "sha": "a74d7bd3f9373af2ea2caef3f264b43ae0be90739f2b0d64bfdcc7be6c5c0c5a",
+   "size": 3824497,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Proofreading/janouskova2022 (1).pdf",
+   "sha": "2d31f2fe1e8f91b25dde6b41817d77cc4b47f3ae766cb3611d6f37c6f2bc45c8",
+   "size": 624475,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Proofreading/porte2001.pdf",
+   "sha": "03847d956c932432235ef874511a924b034f30594ae63f77db5ff6d4c0aed83c",
+   "size": 115220,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Searching/Comsnets.pdf",
+   "sha": "9cb9e03150a7b6350c2149ab621d1d145938a25c22a30b492a6e3a918236dc69",
+   "size": 1823511,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Searching/lu2011.pdf",
+   "sha": "36a5e3330080107713c157cd461ec0548672ed874a807fb9fed674fd7d2305a0",
+   "size": 257583,
+   "is_new": true
+  },
+  {
+   "path": "raw/Add more paper/Skimming/12909_2025_Article_8412.pdf",
+   "sha": "7748124b2f18c01ae66f9439885ce6a9c109aad6860467f163aacb6d056454bf",
+   "size": 1389177,
+   "is_new": true
+  },
+  {
+   "path": "raw/Comprehension/18_63.pdf",
+   "sha": "7a744be19e4abb81f09dab80d007bbfddbbc0517ecf65f32e44bce950827f3a4",
+   "size": 249118,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/3320435.3320447.pdf",
+   "sha": "633a441fbd2b9df8e9383c19edd7e46429b6b3bdfb651a938227851793c0a8fc",
+   "size": 1686081,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/binkley-identifier-style-effort-comprehension-2012.pdf",
+   "sha": "2061c964e9b6140d04e83ae001b15a712c29297da56c3a8e47ee2f10e678891f",
+   "size": 1031541,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/Britt et al DP 2022 R1.pdf",
+   "sha": "49f73fddf682f35c8e68d7e1c0d02a4fc4e496e7d4fc0cef8cc520760a18285d",
+   "size": 528324,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/EJ1079769.pdf",
+   "sha": "37612007815c9e190b0037f293248a960cef554b0daf0c1abd3ae07d5c82463a",
+   "size": 180153,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/EJ1486502.pdf",
+   "sha": "fb6a47e9a9782380aff604694bf7624d71863305ce98d6506cb8e911ac994d72",
+   "size": 776363,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/fpsyg-12-712901.pdf",
+   "sha": "726b2870e5b8e1c0fcd3c1ef4a93266d1ec44be93f3d59e9f3084d7e52709a96",
+   "size": 1403542,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/Journal of Educational Psychology 1999.pdf",
+   "sha": "363220b671e6cc18abb569d1c43a29ee8e01583e60f11b2935a5099362f50323",
+   "size": 1224488,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/Kintsch - 1998 - Comprehension.pdf",
+   "sha": "a79ccc029269669814d02bc9133bc8fe30c6f42cd9a458eb872c4194af990f3e",
+   "size": 20047255,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/layout_on_screen.pdf",
+   "sha": "5353189e8ff719fe880ddc994955e2a88979c2508bdf9d41a89865477acc28ef",
+   "size": 1938361,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/Mart\u00edn_Calpena,_Beatriz_Yoldi;_Iglesias_Maqueda,_Anna_Mar\u00eda;_Morato.pdf",
+   "sha": "5e18d5d2d9be2409b734198f81a50f6518f3f42e5774f29d1b0a35d60dbcc10c",
+   "size": 295986,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/ssrn-5678368.pdf",
+   "sha": "d9221f8f016af4cc7505be460d4452c9a6af68351547e20c9d24b4962ca8cbcf",
+   "size": 891249,
+   "is_new": false
+  },
+  {
+   "path": "raw/Comprehension/The effects of interletter and line spacing on reading speed, comprehension, and perceived comfortability.pdf",
+   "sha": "a56cacccc59d4bb403de7267f34fca2df5c212ca761df89fd5beaa0e39f20028",
+   "size": 379100,
+   "is_new": false
+  },
+  {
+   "path": "raw/GenAI-LLM/2505.10409v1.pdf",
+   "sha": "1413a141b7c41e9672b7327500428d52ad9e5b0c20060af1f8d7287ace655c37",
+   "size": 378980,
+   "is_new": false
+  },
+  {
+   "path": "raw/GenAI-LLM/3706468.3706483.pdf",
+   "sha": "a03df2e564c9b30ba661ce879d4518e2d2b8c261b86e665b9f7174b5e885af76",
+   "size": 352947,
+   "is_new": false
+  },
+  {
+   "path": "raw/GenAI-LLM/978-3-032-03870-8_20.pdf",
+   "sha": "64645cdb361621728a2089af3e03a2f36b612bd5fa7168bfc755616d0417ccfe",
+   "size": 977879,
+   "is_new": false
+  },
+  {
+   "path": "raw/GenAI-LLM/Summarization_and_simplification_TEL.pdf",
+   "sha": "8840dfa7014c5836766002e5462029438b0567eff393794386a9bfe9c03c184d",
+   "size": 1053506,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/160800.pdf",
+   "sha": "4ea479d42a24aeb38dbc6e460cdb465474ca981346997df1159012979d1aad9d",
+   "size": 3529158,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/2534_105-2221-E-150-034-.pdf",
+   "sha": "ac091ccf7f0a9bd6db57bbabfb36c6c0c937e80de97aad09e340cb689424b3db",
+   "size": 1812916,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/666539-what-impacts-success-in-proofreading-a-literature-review-of-text-feature-effects. (1).pdf",
+   "sha": "cca089d3d3739ec1874aa7602ca19048e247a3c9978bf9fe7234fc0a5445e9fa",
+   "size": 471598,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/666539-what-impacts-success-in-proofreading-a-literature-review-of-text-feature-effects..pdf",
+   "sha": "cca089d3d3739ec1874aa7602ca19048e247a3c9978bf9fe7234fc0a5445e9fa",
+   "size": 471598,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/666540-what-impacts-success-in-proofreading-a-literature-review-of-proofreading-on-screen-vs-on-paper.-.pdf",
+   "sha": "15cfb2bf59ba02b89873b3fa3176401aeea611a184ae8809a634e911f73159d8",
+   "size": 679258,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/7085c1aa7ea26960b0395c1409a9f2db.pdf",
+   "sha": "3ae4a882f34cc89202475ccf160dcc21661f3d6024bb5c2d64d98459aae6fd15",
+   "size": 111267,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/978-1-4899-2118-5_9.pdf",
+   "sha": "b9e5153d95ee27be07f4be6d3a9f2f55b0fb537d0501748e8ea9505f05d6039c",
+   "size": 368808,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/978-3-642-21669-5_1.pdf",
+   "sha": "c1ad7528a0a838cf49716e9d363b769e78ea7ca0c8e135d524f646a3fc27e1e5",
+   "size": 313732,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/Chan_et_al_2014_Proofread_Screen.pdf",
+   "sha": "6056dbd676923e2af26af06eba2dac8d12318fb5c95c49dc6b6e2890be0dcba1",
+   "size": 280451,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/Developing_Optimum_Interface_Design_for.pdf",
+   "sha": "ed7e5ced0497ae538f49d61c28211064a41ca1211941d7eacf0b932f848aea4b",
+   "size": 114788,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/hyatt-et-al-2017-a-student-guide-to-proofreading-and-writing-in-science.pdf",
+   "sha": "5785c1bacd09640521355356329aa8f3040077ce42f22561c80ac1f95b78bdd8",
+   "size": 77815,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/lt2017-6580-hd897.pdf",
+   "sha": "bd706df9aed0c29227f79252adb2edcd919a1087ba1883e74feb99111369466c",
+   "size": 1192751,
+   "is_new": false
+  },
+  {
+   "path": "raw/Proofreading/out.pdf",
+   "sha": "8010e523a49dd2fcaea4b4a593e77c0247c87ff562d155089bac1a50594b54ef",
+   "size": 809611,
+   "is_new": false
+  },
+  {
+   "path": "raw/Search/1255175.1255267 (1).pdf",
+   "sha": "abba9e6cc0e539b43a49ce05ececd7b0a8e0d352e3d74447088d0e44c24145ef",
+   "size": 675170,
+   "is_new": false
+  },
+  {
+   "path": "raw/Search/1255175.1255267.pdf",
+   "sha": "abba9e6cc0e539b43a49ce05ececd7b0a8e0d352e3d74447088d0e44c24145ef",
+   "size": 675170,
+   "is_new": false
+  },
+  {
+   "path": "raw/Search/1414694.1414722.pdf",
+   "sha": "4b51682656d3695bf7eb3e4af381875598575b0a21bacc97fd4a3762302e311b",
+   "size": 877486,
+   "is_new": false
+  },
+  {
+   "path": "raw/Search/2009-Tarling.pdf",
+   "sha": "650009ed62b91fb0924429d3e36da59a40ec094584300d07ba7dc36c1261362a",
+   "size": 314884,
+   "is_new": false
+  },
+  {
+   "path": "raw/Search/BF03212897.pdf",
+   "sha": "33f8a1248933c17799f164531b284299dd511bfbeeaf04f407539ed9cdeca7ec",
+   "size": 1084768,
+   "is_new": false
+  },
+  {
+   "path": "raw/Search/ED438801.pdf",
+   "sha": "cee333991a3aa746a434345209912df2e2fac990c81483be12143322ccb7ecee",
+   "size": 329425,
+   "is_new": false
+  },
+  {
+   "path": "raw/Search/fpsyg-14-1052488.pdf",
+   "sha": "8df6fa5b011ffea46eddfb1f1fcdf843d88faa357ea0dd3fff57fb6f0f10587d",
+   "size": 1535246,
+   "is_new": false
+  },
+  {
+   "path": "raw/Search/Information_seeking_behaviors_and_cognitive_strate.pdf",
+   "sha": "5c9af49cd69ea5f0179c4c7cf97314b5231287ee8c898e37186174de51281701",
+   "size": 480384,
+   "is_new": false
+  },
+  {
+   "path": "raw/Search/ONLINE HEALTH INFORMATION SEEKING BEHAVIOUR_ UNDERSTANDING DIFFER.pdf",
+   "sha": "fa58e166daeb5520783ac97bfd9714ffa6cc96d6383c9a6405b6206428fd3e55",
+   "size": 443041,
+   "is_new": false
+  },
+  {
+   "path": "raw/Search/Rouet_etal-2002_DP.pdf",
+   "sha": "fc085b07fa73ecf15017eb3a16957d21fe858dac9eed48c200a39707ab9b0bd3",
+   "size": 228807,
+   "is_new": false
+  },
+  {
+   "path": "raw/Search/Zhiwen_Liang-Thesis_v4.pdf",
+   "sha": "c966f0d04f1bb6c4f112aafc60d0f60dad7b7cc127e85be0398ba18557d2c3ad",
+   "size": 2266977,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/12909_2025_Article_8412.pdf",
+   "sha": "7748124b2f18c01ae66f9439885ce6a9c109aad6860467f163aacb6d056454bf",
+   "size": 1389177,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/1963-tinker-legibilityofprint.pdf",
+   "sha": "37a5242ab0b48fd19da9e400ec1b2142cfe775ad3707c9707236da56cce5aa43",
+   "size": 4920268,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/23-Submission+405+pp+162-170.pdf",
+   "sha": "fc73eb8843ccbbeb17936c7dddf7a3e7ce496b0fc405183c6d70cbb8d482722c",
+   "size": 253418,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/2362364.2362366.pdf",
+   "sha": "3b51eb77cf388e15219c2c73bf500e3a261c6b45d707ae913f709d8d67b6f008",
+   "size": 944828,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/2615569.2615682.pdf",
+   "sha": "1c4f5b4371399e738b8e4303406c9e0b369d7c983d5144f28e9de076a5c73312",
+   "size": 35704868,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/978-3-030-90984-0.pdf",
+   "sha": "95d4812da87d4a3fb212da6a396ada278962005f51a7f0fa39894a419ddefb38",
+   "size": 2911762,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/9781315841373_previewpdf (2).pdf",
+   "sha": "1d8db6de013ba2d85052d606166b81eecb6085f2c23213b08b6499c8349fb111",
+   "size": 511959,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/adminjlh,+ejournal-reysa-082084027.pdf",
+   "sha": "ae2a07171a19964a684bb862f100bf3cad61f6898b62b1b6e1dfca1d1b24aad3",
+   "size": 577194,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Aneyetrackingstudyofhowfontsize.pdf",
+   "sha": "d7391b4579ed6f13cd406a9142673eb1f3307f0d3304ccf388e39eab0082c170",
+   "size": 589878,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Clinton-2019-Journal_of_Research_in_Reading.pdf",
+   "sha": "caa6ccadbac022f919ca6e3a17aa5622e7120fe4f453f1c8f1fbbeb558ea6d52",
+   "size": 646076,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/discours-8600 (1).pdf",
+   "sha": "8f72e5cf368b65c2c225cf0631de738d3d2ee65d08d8473bf6553160a012b9ad",
+   "size": 427495,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/discours-8600.pdf",
+   "sha": "8f72e5cf368b65c2c225cf0631de738d3d2ee65d08d8473bf6553160a012b9ad",
+   "size": 427495,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/DugganPayne11.pdf",
+   "sha": "812d01e60eaf7c67716141f15d11ddd14e5e8e18eb217be97445449363b4c804",
+   "size": 386845,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Duggan_Payne_11.pdf",
+   "sha": "f5564ef35be954bfbeb33ffda408ff3adb983571639a9cd931362f7a98088a12",
+   "size": 433290,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Duggan_Payne_JEPA_2009.pdf",
+   "sha": "7f5f4cfdaada024a1ff2bd5580ac2e881f0afd1e4eaf730cbd43555f2e8f4883",
+   "size": 340624,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/effectief lezen van scherm.pdf",
+   "sha": "779a727a42deaefea4676ed567c685fed42bf221c17e7a69310edec4663607b4",
+   "size": 430231,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/EffectsOfFontDisfluency.pdf",
+   "sha": "daf5060847162cbfd51d49fff80c83ab02187c8bddf9b667a7639234a331491f",
+   "size": 335212,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Effects_of_Reading_Goal_and_Reading_Task_on_Eye_Fixation_Patterns.pdf",
+   "sha": "6147ba652a86c7dc537e856237facd203534f77fd23319d0dc7641a9bcb6be81",
+   "size": 607074,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/eScholarship UC item 4wd1s7hj.pdf",
+   "sha": "968c3ddb635d29651113636497d8eb3c94615c56993c0e9cf1c6023df89da186",
+   "size": 262802,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/FunctionalHeadings_Final.pdf",
+   "sha": "5da08fdbffc1ea8ec4c0964f0995b7325ffcb26e6f5e33f5f0abfbc588e9eb36",
+   "size": 294572,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/HSv19-p91-96.pdf",
+   "sha": "25f8b3aa29dd74fcd4d9cb876ba6f711cdb05d04b48c3bf862f8de7171e15fde",
+   "size": 302982,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Individual_differences_in_reading_to_summarize_exp (1).pdf",
+   "sha": "670c121174102e270f8a97c9aaec5c7fd35ec1b8c12c889d43f0ef1bbc7ad14a",
+   "size": 102616,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Individual_differences_in_reading_to_summarize_exp.pdf",
+   "sha": "670c121174102e270f8a97c9aaec5c7fd35ec1b8c12c889d43f0ef1bbc7ad14a",
+   "size": 102616,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/introduction_to_multimedia_learning.pdf",
+   "sha": "3a4887ea7c2d1a83b5cf22523df50c718fcbaded0d5b617719def3cf6cc71b10",
+   "size": 662809,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/main.pdf",
+   "sha": "b76bd5b305bf95b161510f757bf7e55009be23d83c27566ce388c3a9aa24053a",
+   "size": 2889599,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/nihms152887.pdf",
+   "sha": "0d3ab8fb51a3a8cf07daeaa1eb7cba7ca2dc90e717cc5c9c5d62a6f78652a9ad",
+   "size": 365305,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Ole_Lund_Knowledge_construction_in_typography.pdf",
+   "sha": "f805616dac06d394930ad97f58340ac30e284c4d01a7ff9ba643cfeb3f96deec",
+   "size": 2705133,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/p338-molich.pdf",
+   "sha": "027e63c7a9028ceb72b37ea73202160ecccef5db861b4df6ce458cf4c7ca5bec",
+   "size": 1029869,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Proc_of_Assoc_for_Info_2012_Marcial_Scrolling_and_pagination_for.pdf",
+   "sha": "96412f0726009c9bdfa1c9aec0857529b15980a12e95c7100afe45d526b159a5",
+   "size": 112657,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/reading-speed-and-comprehension-enhancement-in-hybrid-4o1o0tvafu.pdf",
+   "sha": "ace5c8890a599a849374b5d0237d22bdff7b167ca0138e8546e8f65329d060bd",
+   "size": 213097,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Reading_Speed_and_Comprehension_Enhancement_in_Hyb.pdf",
+   "sha": "cf9b663606c55474ee0370adfbafa7432a46968300b332d260516447336dab0c",
+   "size": 543971,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Text_Skimming_The_Process_and_Effectiveness_of_For (1).pdf",
+   "sha": "6025eae9d93b28d278afc3444660d11de0e6cb90501b2bfac35368d3de5b620f",
+   "size": 307203,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Text_Skimming_The_Process_and_Effectiveness_of_For.pdf",
+   "sha": "6025eae9d93b28d278afc3444660d11de0e6cb90501b2bfac35368d3de5b620f",
+   "size": 307203,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/The_effects_of_reading_speed_and_reading_patterns_.pdf",
+   "sha": "1783fe68dfcaf1a7bb51b762649e8c0c2182561bc725980d49944787573042f7",
+   "size": 155894,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/the_elements_of_typographic_style.pdf",
+   "sha": "633734da66fea316d5f7ecb7e9616dc2e2b628c78ba5988bc618a5d7b8726aaa",
+   "size": 18805222,
+   "is_new": false
+  },
+  {
+   "path": "raw/Skimming/Understanding_How_Headings_Influence_Text_Processi.pdf",
+   "sha": "0b231663e5efa6d616be17914163dcbb8b71ec73ea9b88adb594b5425ba89ce3",
+   "size": 358365,
+   "is_new": false
+  }
+ ]
+}
